@@ -4,7 +4,7 @@ public class Example14 {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
         Random r = new Random();
-        int l = r.nextInt(25);
+        int l = r.nextInt(26);
         char letter = (char)(l + 97);
         Boolean game = true;
         System.out.print("Угадайте букву : ");
