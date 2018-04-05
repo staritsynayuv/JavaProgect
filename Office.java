@@ -40,23 +40,35 @@ public class Office {
 
 
     public void Sort(){
+       // List<Integer> list = new ArrayList<>();
+       // for (list l: this.list) {
 
 
+      //  }
+       // for (Employee employee : this.list){
+
+       // }
 
         //for (int i = 0; i<list.size()-1; i++){
-          //  int jmin=i;
-            //for (int j = i+1; j < list.size(); j++  ){
-              //  if (list.get(j).getLastName().equals(list.get(jmin).getLastName())){
-                //    jmin = j;
-                //}
-               // String x = list.get(i).getLastName();
-                //String l = list.get(i).getLastName();
-                //String k = list.get(jmin).getLastName();
-              //  l= list.get(jmin).getLastName();
+           // int jmin=i;
+          //  for (int j = i+1; j < list.size(); j++  ){
+           //     if (list.get(j).getLastName().compareTo(list.get(jmin).getLastName()){
+              //      jmin = j;
+            //    }
+
+            //    String x = list.get(i).getLastName();
+             //   String l = list.get(i).getLastName();
+            //    String k = list.get(jmin).getLastName();
+            //    l= list.get(jmin).getLastName();
             //    k = x;
+
           //  }
-        //}
+       // }
     }
 
 
+
+
 }
+
+
