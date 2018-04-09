@@ -10,7 +10,7 @@ public class Main {
 
         for(int i = 0; i< n; i++) {
             System.out.println("Введите имя, фамилию, зарплату, должность сотрудника");
-            Employee employee = new Employee(in.next(), in.next(), in.nextInt(), Rank.valueOf(in.next()) );
+            Employee employee = new Employee(in.next(), in.next(), in.nextInt(), Rank.getRank(in.next()) );
 
             office.add(employee);
         }
