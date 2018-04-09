@@ -5,16 +5,12 @@ public class Employee extends Object implements Comparable  {
     private Rank rank;
 
 
-    public Employee(String lastName, String firstName, int salary , Rank rank){
+    public Employee(String lastName, String firstName, int salary, Rank rank){
         this.lastName = lastName;
         this.firstName = firstName;
         this.salary = salary;
         this.rank = rank;
-
-
     }
-
-
 
 
    // public Salary(int salary) {
@@ -29,12 +25,9 @@ public class Employee extends Object implements Comparable  {
         return lastName;
     }
 
-
-
     public String getFirstName() {
         return firstName;
     }
-
 
     public int getSalary() {
         return salary;
@@ -53,7 +46,7 @@ public class Employee extends Object implements Comparable  {
 
 
     public String toString() {
-        return lastName + "  " + firstName + "  " + rank;
+        return lastName + "  " + firstName + "  " + salary + " " + rank.getName();
     }
 
     @Override
