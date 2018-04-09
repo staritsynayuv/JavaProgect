@@ -22,8 +22,8 @@ public class Office {
 
     public void showEmployeeList() {
         for (Employee element: this.list){
-            System.out.print(element.getLastName() + " ");
-            System.out.println(element.getFirstName());
+            System.out.println(element);
+
 
         }
     }
