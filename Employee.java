@@ -1,12 +1,14 @@
 public class Employee extends Object implements Comparable  {
     private String lastName;
     private String firstName;
-    private Rank rank;
     private int salary;
+    private Rank rank;
 
-    public Employee(String lastName, String firstName, Rank rank){
+
+    public Employee(String lastName, String firstName, int salary , Rank rank){
         this.lastName = lastName;
         this.firstName = firstName;
+        this.salary = salary;
         this.rank = rank;
 
 
@@ -71,4 +73,3 @@ public class Employee extends Object implements Comparable  {
        return 1;
     }
 }
-
